@@ -1,0 +1,88 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: #B0B8B4FF;
+	font-family: 'Special Elite', cursive;
+}
+
+canvas {
+	border: 3px solid black;
+	border-radius: 10px;
+	background-color: white;
+	align-self: center;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	
+}
+
+.left {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+.left > h3 {
+	font-weight: 5px;
+	font-size: 1.5rem;
+	text-decoration: underline;
+}
+.left > h1 {
+	letter-spacing: 10px;
+	font-weight: 5px;
+	font-size: 3rem;
+}
+
+.left > h4 {
+	margin: 0;
+	padding: 10px;
+}
+
+.arrowsContainer {
+	display: inline-flex;
+}
+.arrowsContainer > h4{
+	margin-bottom: 0;
+	margin-top: auto;
+	padding: 10px;
+}
+.arrowsContainer > img {
+	width: 100px;
+	height: auto;
+}
+
+#pauseMenu {
+	z-index: 1;
+	position: absolute;
+}
+
+#restartButton {
+	display: none;
+	background-color: #B0B8B4FF;
+	border: 5px solid black;
+	border-radius: 10px;
+	padding: 10px
+}
+.canvasContainer {
+	width: 100%;
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right {
+	text-align: center;
+}
+
+.right > h3 {
+	font-weight: 5px;
+	font-size: 2rem;
+	text-decoration: underline;
+}
+
+.right > span {
+	font-size: 2rem;
+}

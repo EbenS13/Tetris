@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Tetris</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<h1>TETRIS</h1>
+			<h3>Instructions</h3>
+			<h4>Rotate</h4>
+			<div class="arrowsContainer">
+				<h4>Move Left</h4>
+				<img src="./arrows.png">
+				<h4>Move right</h4>
+			</div>
+			<h4>Move Down</h4>
+			<h2>--- Space ---</h2>
+			<h4 style="padding: 0;">Drop Piece</h4>
+		</div>
+
+		<div class="canvasContainer"><canvas id="gameCanvas" width="300" height="600"></canvas><div id="pauseMenu"><h1 id="restartButton">Restart</h1></div></div>
+		<div class="right">
+			<h3>Score:</h3>
+			<span id="scoreText"></span>
+		</div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
